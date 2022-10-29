@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+     <!-- <link rel="shortcut icon" type="image/svg" href="img/logo.svg" />  -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style1.css" />
+    <title>EasyBank |Where excellence meets banking</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img src="img/logo.svg" class="nav__logo" id="logo"/>
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Operations</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link " href="signup_form.html">Sign-Up</a> 
+          </li>
+          <li class="nav__item">
+            <a class="nav__link " href="#section--4">Login</a> 
+          </li>
+           </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          Next
+          <!-- Green highlight effect -->
+          <span class="highlight">generation</span>
+          digital<br/>
+          <span class="highlight">banking</span>
+        </h1>
+        <h4>Take your financial life online. Your easy bank account<br/>
+          will be a one-stop-shop for spending,saving,<br />budgeting,investing,
+          and much more.</h4>
+        <button class="btn--text btn--scroll-to">Learn more </button>
+        <img
+          src="img/image-mockups.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          Everything you need in a modern bank and more.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/digital.jpg"
+          data-src="img/digital.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">100% digital bank</h5>
+          <p>
+            Our modern web and mobile
+            applications allow you to keep
+            track of your finances whereever
+            you are in the world
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Watch your money grow</h5>
+          <p>
+            With a lower interest rate, more of your money goes directly to the principle of your 
+            capital, maximizing how much you can afford on interest and minimizing the monthly payment. 
+            With each 0.125% shift in interest rates, your buying power changes, and a 1% difference
+            could add $30,000 to your budget. 
+          </p>
+        </div>
+        <img
+          src="img/grow.jpg"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/card.jpg"
+          data-src="img/card.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Free debit card included</h5>
+          <p>
+            Use your Easy Bank visa Debit Card anywhere in the world. When you need a fee-free 
+            ATM We've got you covered. Use your Easy Bank visa Debit Card Debit Card to access your money with no 
+            fee added.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Operations</h2>
+        <h3 class="section__header">
+          Everything as simple as possible, but no simpler.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Instant Transfers
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Instant Loans
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Instant Closing
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Transfer money to anyone, instantly! No fees, no BS.
+          </h5>
+          <p>
+            Instant transfers when you want it, to whoever you want. Transfer from your phone 
+            contacts, via NFC or just via old-fashioned sort codes and account nunbers. 
+            The choice is yours.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Buy a home or make your dreams come true, with instant loans.
+          </h5>
+          <p>
+            Simple pre-approved loans, for whatever you need. Make your application in just a few
+             steps in the app and we'll let you know the status instantly and have the money to you
+             before old banks have even posted their form.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            No longer need your account? No problem! Close it instantly.
+          </h5>
+          <p>
+            We don't think you'll ever want to close your account but if you do, you can do so right
+            in the app in double quick time. Any available funds and scheduled payments are sent 
+            wherever you want them in the blink of an eye.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Millions of EasyBank account owners are already making their lifes simpler.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best financial decision ever!</h5>
+            <blockquote class="testimonial__text">
+              I can't overstate how much of a relief it is to finally be free of old school banks.
+              No more waiting around for the most basic of tasks, everything is now done at the tap
+              of a button, from  wherever I am. How cool! I'm so pleased to have found Easy bank and
+              be part of a minimalist banking revolution
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Aarav Lynn</h6>
+              <p class="testimonial__location">San Francisco, USA</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The last step to becoming a complete minimalist
+            </h5>
+            <blockquote class="testimonial__text">
+              Moving to Easy bank has been the best financial decision ever! Setting up my account 
+              was so fast and the app is incredibly easy to use. I'm so glad to see the back of my
+              old bank and be part of a minimalist banking future!
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally free from old-school banks
+            </h5>
+            <blockquote class="testimonial__text">
+              I never thought I would be able to find a bank that fits in with my minimalist
+              lifestyle but Easy bank is most certainly it! They really are truly minimalist from the
+              design of the app right through to their customer service, which is the best I've
+              ever experienced. Here's to a minimalist future
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address>
+          </div>
+        </div>
+
+        <!-- <div class="slide"><img src="img/img-1.jpg" alt="Photo 1" /></div>
+        <div class="slide"><img src="img/img-2.jpg" alt="Photo 2" /></div>
+        <div class="slide"><img src="img/img-3.jpg" alt="Photo 3" /></div>
+        <div class="slide"><img src="img/img-4.jpg" alt="Photo 4" /></div> -->
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+     <section class="section section--sign-up" id ="section--4">
+      <div class="section__title">
+         <h3 class="section__header">
+          The best day to join Easy Bank was one year ago. The second best is
+          today!
+        </h3>
+      </div> 
+      <a href="index.html">
+       <button class="signuplogin">Login</button>
+      </a>
+    </section> 
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img src="img/logo.svg" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy;  Copyright by
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          
+          >EASY BANK</a
+        >. All rights reserved.
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Login your<br/>
+        bank <span class="highlight">account </span>
+      </h2>
+      <form class="modal__form">
+        <label>Email Address</label>
+        <input type="text" placeholder = "Enter Email"required />
+        <label>PassWord</label>
+        <input type="password" placeholder = "Enter PassWord"required />
+        <button class="btn">Login</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script1.js"></script>
+  </body>
+</html>
